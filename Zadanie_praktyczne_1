@@ -1,9 +1,73 @@
-# Zadanie_1
-Suselcia31/Zadanie_1
-
-
 Zadanie praktyczne 1:
 
 1. Zapoznano sie z materialami.
 2. Utworzono konto na Mantis - login: Iwonka31
-W oczekiwaniu na przypisanie do projektu ...
+
+Nr taska: 0020475
+
+
+
+Odpowiedź Mantis Bug Tracker
+<noreply@mantisbt.org>
+
+A NOTE has been added to this issue.
+======================================================================
+https://www.mantisbt.org/bugs/view.php?id=20475
+======================================================================
+Reported By:                Iwonka31
+Assigned To:                
+======================================================================
+Project:                    mantisbt
+Issue ID:                   20475
+Category:                   other
+Reproducibility:            random
+Severity:                   major
+Priority:                   normal
+Status:                     new
+======================================================================
+Date Submitted:             2016-01-04 18:16 CET
+Last Modified:              2016-01-04 19:11 CET
+======================================================================
+Summary:                    Zawieszanie sie przeglądarki
+Description:
+Strona przeglądarki FF 43 zawiesza się po otwarciu dużej ilości kart.
+
+Steps to Reproduce:
+1. Włączenie przeglądarki internetowej
+2. Utworzenie kolejnych kart w przeglądarce
+3. Powrót do utworzonych kart i włączenie ich po kolei
+4. Ładowanie się kart kolejno
+5. Utworzenie kolejnej karty i przejście do niej podczas ładowania się
+dotychczasowych kart
+6. Zawieszenie strony
+
+
+Additional Information:
+Strona przeglądarki wraca do normalnego widoku po zawieszeniu, po odczekaniu
+od kilku do kilkunastu sekund bez podejmowania prób jej "odwieszenia" np. za
+pomocą klawiatury. Próby "odwieszenia" strony przeglądarki kończą się
+przymusowym zamknięciem strony przeglądarki i włączeniem strony
+przeglądarki na nowo.
+======================================================================
+
+----------------------------------------------------------------------
+(0052242) atrol (developer) - 2016-01-04 19:11
+https://www.mantisbt.org/bugs/view.php?id=20475#c52242
+----------------------------------------------------------------------
+Iwonka31,
+
+This is not a bug or feature request for MantisBT (you are asking for help on
+how to configure the system). I am therefore resolving this issue as "no change
+required".
+
+Please use the forums, the mantisbt-help mailing list or IRC to get support on
+customizing and using MantisBT (refer to http://www.mantisbt.org/support.php for
+links and further details).
+
+Issue History
+Date Modified    Username       Field                    Change              
+======================================================================
+2016-01-04 18:16 Iwonka31       New Issue                                    
+2016-01-04 19:11 atrol          Note Added: 0052242                          
+======================================================================
+
