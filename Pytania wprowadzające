@@ -4,7 +4,9 @@ Pytania wprowadzajace:
 
 1.Czym się różnią testy funkcjonalne od niefunkcjonalnych? 
 
-Testy funkcjonalne odpowiadają na pytanie jak system wykonuje funkcje, które ma za zadanie udostępniać włączając w to komendy użytkownika, operacje na danych, wyszukiwanie, procesy biznesowe i ekrany użytkownika. Natomiast testy niefunkcjonalne dają odpowiedź na pytanie “jak” działa system.
+Zadaniem testów funkcjonalnych jest sprawdzenie systemu pod kątem zgodności działania poszczególnych funkcjonalności ze specyfikacją. Testy te sprawdzają podstawowe funkcje aplikacji tj.: instalację, konfigurację, funkcje menu, wprowadzanie tekstu. Testy funkcjonalne powinno przeprowadzać od samego początku stworzenia pierwszych funkcjonalności. Skoncentrowane są na wymaganiach klienta oraz jego oczekiwaniach. Prowadzi się je zarówno testami manualnymi jak i automatycznymi.
+
+Testy niefunkcjonalne są testami niepowiązanymi z wymaganiami funkcjonalnymi. Dają odpowiedź na pytanie “jak” działa system. To „jak” działa system składa się na ocenę cech testowanego oprogramowania, czy jest niezawodny, użyteczny, przenaszalny i łatwy w konserwacji. Mają one ogromny wpływ na późniejsze zadowolenie klienta czy użytkowników i są dość trudno definiowalne. Prowadzi się je testami obciążeniowymi, wydajnościowymi, przeciążającymi, użytecznościowymi.
 
 2.Co to są smoke testy i testy regresji? Kiedy je stosujemy? 
 
@@ -29,8 +31,11 @@ Wiek:  			      Wartości brzegowe: 17, 18, 19, 59, 60, 61
 
 Jakie pytania zadasz analitykowi, zanim przystąpisz do testów logowania? 
 
+Jaki danymi akceptowalnymi należy się tutaj posłużyć? – pytanie dotyczące budowy składu logina i hasła?
 Jaki jest login logowania do aplikacji?
 Jakie jest hasło przypisane do loginu w logowaniu do aplikacji?
+Jaki komunikat ma się pojawić po zalogowaniu się do aplikacji?
+
 
 7.Co jest celem testowania? 
 
